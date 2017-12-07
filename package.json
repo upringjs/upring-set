@@ -1,0 +1,35 @@
+{
+  "name": "upring-set",
+  "version": "0.1.0",
+  "description": "Redis set api on top of Upring",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && tap test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/upringjs/upring-set.git"
+  },
+  "keywords": [
+    "upring",
+    "set",
+    "redis"
+  ],
+  "author": "Tomas Della Vedova - @delvedor (http://delved.org)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/upringjs/upring-set/issues"
+  },
+  "homepage": "https://github.com/upringjs/upring-set#readme",
+  "dependencies": {
+    "fast-deep-equal": "^1.0.0",
+    "lodash": "^4.17.4",
+    "make-promises-safe": "^1.1.0"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3",
+    "tap": "^11.0.0",
+    "upring": "^0.22.0",
+    "upring-kv": "^0.5.0"
+  }
+}
